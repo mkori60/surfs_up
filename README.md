@@ -28,9 +28,11 @@ I then created two further queries in order to produce precipitation data for th
 I then got the number of days with rain for both June and December using the code: 
 
 june_prcp_count = june_prcp_df[june_prcp_df['June Precipitation'] > 0].count()
+
 There were 927 days out of 1574 that had rain in June, or 58.89 percent of the time. 
 
 prcp_count = dec_prcp_df[dec_prcp_df['Dec Precipitation'] > 0].count()
+
 There were 895 out of 1405 days with rain in December, or 63.7 percennt of the time. 
 
 ## Summary 
